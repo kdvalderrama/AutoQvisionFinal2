@@ -31,10 +31,10 @@ public class LoginTest {
 		{
 			System.out.println("Página a la que desea ingresar es correcta");
 			System.out.println(URL);
-			
+			//Login - campo usuario
 			driver.findElement(By.xpath("//*[@id=\"LoginForm_username\"]")).click();
 			driver.findElement(By.id("LoginForm_username")).sendKeys("pruebaUsuario");
-			
+			//Login - campo contraseña
 			driver.findElement(By.xpath("//*[@id=\"LoginForm_password\"]")).click();
 			driver.findElement(By.id("LoginForm_password")).sendKeys("123*");
 			
