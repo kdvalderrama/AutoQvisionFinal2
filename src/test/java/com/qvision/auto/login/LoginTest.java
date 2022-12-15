@@ -37,7 +37,7 @@ public class LoginTest {
 			//Login - campo contraseña
 			driver.findElement(By.xpath("//*[@id=\"LoginForm_password\"]")).click();
 			driver.findElement(By.id("LoginForm_password")).sendKeys("123*");
-			//Login . clic sobre boton
+			//Login . clic sobre boton click
 			driver.findElement(By.xpath("//*[@id=\"login-form\"]/div[3]/div[1]/input")).click();
 		}
 		else
